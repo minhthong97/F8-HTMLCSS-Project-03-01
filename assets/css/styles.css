@@ -166,8 +166,7 @@ button {
 .section-headline::before {
     content: "";
     display: inline-block;
-    margin-bottom: 8px;
-    margin-right: 21px;
+    margin: 11px 21px 6px 0;
     width: 25px;
     height: 1px;
     background: var(--heading-color);
@@ -462,6 +461,11 @@ button {
 .services__row {
     display: flex;
     justify-content: space-between;
+}
+
+.services__headline.section-headline::before {
+    margin-top: 9px;
+    margin-bottom: 8px;
 }
 
 .services__heading {
